@@ -43,7 +43,7 @@
           "proposingRepReward": 10,
           "queuedVotePeriodLimit": 864000,
           "queuedVoteRequiredPercentage": 50,
-          "quietEndingPeriod": 300,
+          "quietEndingPeriod": 172800,
           "thresholdConst": 1150,
           "voteOnBehalf":"0x0000000000000000000000000000000000000000",
           "votersReputationLossRatio": 3
@@ -57,7 +57,7 @@
           "proposingRepReward": 200,
           "queuedVotePeriodLimit": 5184000,
           "queuedVoteRequiredPercentage": 50,
-          "quietEndingPeriod": 300,
+          "quietEndingPeriod": 345600,
           "thresholdConst": 1300,
           "voteOnBehalf": "0x0000000000000000000000000000000000000000",
           "votersReputationLossRatio": 4
