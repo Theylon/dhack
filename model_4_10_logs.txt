@@ -1,0 +1,33 @@
+ℹ Network:      rinkeby
+ℹ Account:      0x0c9464826b55F78631B58E06afd91165c64B88d0
+ℹ Balance:      4.977979264694912779ETH
+ℹ Gas price:    30GWei
+ℹ Found an existing previous migration file (/Users/benkaufman/Documents/Work/DAOstack/Migration/migration/migration.json)
+? About to migrate new DAO. Continue? Yes
+ℹ 0x83508baad91e40ae287abb4026bd8b841f7871fb092efb7c964e2061f6eb93db | 0.16968 ETH | Created new organization.
+ℹ 0xa961dcc2576e00ac552508199821326b11d2d2f4e6bfa8da58d3a9a81d176317 | 0.00279 ETH | GenesisProtocol parameters set.
+ℹ 0x0ab520c5d179883fc2d19acc9335ff5520149e95d1044c6223d15051960b7d61 | 0.00279 ETH | GenesisProtocol parameters set.
+ℹ 0x2c4bf383273f1ece7b9c9459e4609b8e315395b43eff074254d55040266ad8ad | 0.00129 ETH | Scheme Registrar parameters set.
+ℹ 0x341b2beb2859095a11e2dc643d1b57aaf4a34d143ed444e784faaf87975f6d09 | 0.00107 ETH | Contribution Reward parameters set.
+ℹ 0x2cc53f2d859775fa7b1ea43489a99b6b9808841aee9c8b114bbb8ae29af8bb35 | 0.01710 ETH | 0xb08D6DA4c36661EfB878348fFbc03a180c0e1Ec3 => RepAllocation
+ℹ 0x2e5ccf8a53b6845ad4c0b2f0624df805bdf962f9a12f219c16b71402c57dc8e1 | 0.02354 ETH | 0xaA82AF87971556D7c794597D2694C098FA2102A0 => ReputationFromToken
+ℹ 0xe212a9b2435f58c087953a189c45813dbf8cee12cbb3e319ba4a713c6beaac84 | 0.00212 ETH | ReputationFromToken initialized.
+ℹ 0x7c44b17c79e8c7cdcc5b692a03f531470ddc86bd589b3889bf1e6b94fa6d0f8e | 0.00488 ETH | DAO schemes set.
+{
+  "name": "ETHGlobal",
+  "Avatar": "0xD1E13995AA3FCC2C3e716F26e6A4719C01574044",
+  "DAOToken": "0xEBd08092Da6FAf352c52de7EfB3344c871123414",
+  "Reputation": "0xEbfB62e5D0b995f19B6d718496275f687C095eC5",
+  "Controller": "0xf3540fd0e08184F46612550f2fb2198f6De5d230",
+  "Schemes": [
+    {
+      "name": "ReputationFromToken",
+      "alias": "ReputationFromToken",
+      "address": "0xaA82AF87971556D7c794597D2694C098FA2102A0"
+    }
+  ],
+  "arcVersion": "0.0.1-rc.31"
+}
+ℹ DAO Migration has Finished Successfully!
+ℹ Finished in 2 minutes and costed 0.22527741ETH
+✔ Wrote results to /Users/benkaufman/Documents/Work/DAOstack/Migration/migration/migration.json.
