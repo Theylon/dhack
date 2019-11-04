@@ -1,0 +1,80 @@
+{
+    "orgName":"ETHGlobal",
+    "tokenName":"ETHGlobal",
+    "tokenSymbol":"ETG",
+    "ContributionReward": [
+        {
+            "voteParams":0
+        }
+    ],
+    "SchemeRegistrar": [
+        {
+            "voteRegisterParams": 1,
+            "voteRemoveParams": 1
+        }
+    ],
+    "StandAloneContracts":[
+        {
+            "name": "RepAllocation",
+            "params": [],
+            "fromArc": true
+        }
+    ],
+    "CustomSchemes":[
+        {
+            "name": "ReputationFromToken",
+            "isUniversal": false,
+            "params": [
+              { "StandAloneContract": 0 },
+              "0x0000000000000000000000000000000000000000"
+            ],
+            "alias" : "ReputationFromToken",
+            "fromArc": true,
+            "permissions": "0x00000000"
+        }
+    ],
+    "VotingMachinesParams": [
+       {
+          "activationTime": 1572861600,
+          "boostedVotePeriodLimit": 300,
+          "daoBountyConst": 10,
+          "minimumDaoBounty": 250,
+          "preBoostedVotePeriodLimit": 172800,
+          "proposingRepReward": 10,
+          "queuedVotePeriodLimit": 864000,
+          "queuedVoteRequiredPercentage": 50,
+          "quietEndingPeriod": 300,
+          "thresholdConst": 1150,
+          "voteOnBehalf":"0x0000000000000000000000000000000000000000",
+          "votersReputationLossRatio": 3
+       },
+       {
+          "activationTime": 1572861600,
+          "boostedVotePeriodLimit": 300,
+          "daoBountyConst": 10,
+          "minimumDaoBounty": 500,
+          "preBoostedVotePeriodLimit": 172800,
+          "proposingRepReward": 200,
+          "queuedVotePeriodLimit": 5184000,
+          "queuedVoteRequiredPercentage": 50,
+          "quietEndingPeriod": 300,
+          "thresholdConst": 1150,
+          "voteOnBehalf": "0x0000000000000000000000000000000000000000",
+          "votersReputationLossRatio": 4
+       }
+    ],
+    "schemes":{
+       "ContributionReward": true,
+       "SchemeRegistrar": true
+    },
+    "unregisterOwner": true,
+    "useUController": false,
+    "useDaoCreator": true,
+    "founders":[
+        {
+            "address": "0x000000000000000000000000000000000000dead",
+            "tokens": 0,
+            "reputation": 0
+        }
+    ]
+ }
