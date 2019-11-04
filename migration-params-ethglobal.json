@@ -13,12 +13,19 @@
             "voteRemoveParams": 1
         }
     ],
+    "StandAloneContracts":[
+        {
+            "name": "RepAllocation",
+            "params": [],
+            "fromArc": true
+        }
+    ],
     "CustomSchemes":[
         {
             "name": "ReputationFromToken",
             "isUniversal": false,
             "params": [
-              { "StandAloneContract": 1 },
+              { "StandAloneContract": 0 },
               "0x0000000000000000000000000000000000000000"
             ],
             "alias" : "ReputationFromToken",
