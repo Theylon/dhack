@@ -1,0 +1,80 @@
+{
+    "orgName":"ETHGlobal",
+    "tokenName":"ETHGlobal",
+    "tokenSymbol":"ETG",
+    "ContributionReward": [
+        {
+            "voteParams":0
+        }
+    ],
+    "SchemeRegistrar": [
+        {
+            "voteRegisterParams": 1,
+            "voteRemoveParams": 1
+        }
+    ],
+    "StandAloneContracts":[
+        {
+            "name": "RepAllocation",
+            "params": [],
+            "fromArc": true
+        }
+    ],
+    "CustomSchemes":[
+        {
+            "name": "ReputationFromToken",
+            "isUniversal": false,
+            "params": [
+              { "StandAloneContract": 0 },
+              "0x0000000000000000000000000000000000000000"
+            ],
+            "alias" : "ReputationFromToken",
+            "fromArc": true,
+            "permissions": "0x00000000"
+        }
+    ],
+    "VotingMachinesParams": [
+       {
+          "activationTime": 1573491600000,
+          "boostedVotePeriodLimit": 259200,
+          "daoBountyConst": 10000000000000000000,
+          "minimumDaoBounty": 250000000000000000000,
+          "preBoostedVotePeriodLimit": 172800,
+          "proposingRepReward": 10000000000000000000,
+          "queuedVotePeriodLimit": 864000,
+          "queuedVoteRequiredPercentage": 50,
+          "quietEndingPeriod": 172800,
+          "thresholdConst": 1150,
+          "voteOnBehalf":"0x0000000000000000000000000000000000000000",
+          "votersReputationLossRatio": 3
+       },
+       {
+          "activationTime": 1573578000,
+          "boostedVotePeriodLimit": 691200,
+          "daoBountyConst": 10000000000000000000,
+          "minimumDaoBounty": 500000000000000000000,
+          "preBoostedVotePeriodLimit": 172800,
+          "proposingRepReward": 200000000000000000000,
+          "queuedVotePeriodLimit": 5184000,
+          "queuedVoteRequiredPercentage": 50,
+          "quietEndingPeriod": 345600,
+          "thresholdConst": 1649267441664,
+          "voteOnBehalf": "0x0000000000000000000000000000000000000000",
+          "votersReputationLossRatio": 4
+       }
+    ],
+    "schemes":{
+       "ContributionReward": true,
+       "SchemeRegistrar": true
+    },
+    "unregisterOwner": true,
+    "useUController": false,
+    "useDaoCreator": true,
+    "founders":[
+        {
+            "address": "0x000000000000000000000000000000000000dead",
+            "tokens": 0,
+            "reputation": 0
+        }
+    ]
+ }
