@@ -16,7 +16,6 @@
     "StandAloneContracts":[
         {
             "name": "RepAllocation",
-            "params": [],
             "fromArc": true
         }
     ],
