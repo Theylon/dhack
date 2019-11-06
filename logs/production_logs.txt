@@ -1,0 +1,32 @@
+ℹ Network:      mainnet
+ℹ Account:      0x2BC1FeD4C65c9B1dc2BaAff2f3198AcC42C41778
+ℹ Balance:      1.166839318021608151ETH
+ℹ Gas price:    30GWei
+ℹ Found an existing previous migration file (/Users/benkaufman/Documents/Work/DAOstack/Migration/migration/migration.json)
+? About to migrate base contracts. Continue? No
+? About to migrate new DAO. Continue? Yes
+ℹ 0x268530815658ce43b946b100f7ac4c944b7ac2d64bbd878af8c26547508f34bb | 0.16968 ETH | Created new organization.
+ℹ 0x24a5e60a614d115e207d5373b2d3ef975ec171ae84654f3a1521e534c24612c8 | 0.00819 ETH | GenesisProtocol parameters set.
+ℹ 0xed7a6dc1ba977d77e24899aa85dc39f9ce69fd496a244163d960764d7df44774 | 0.00819 ETH | GenesisProtocol parameters set.
+ℹ 0xd22625d3f891fe536f9e119c2e3d0c9a760a9a77d621fd45389320a0a6b7787e | 0.00264 ETH | Scheme Registrar parameters set.
+ℹ 0x7204c106c2ccc54d5ad7b6cb0d59c0f55ad06576b930088bc8323ecfcab828c5 | 0.00197 ETH | Contribution Reward parameters set.
+ℹ 0x84e07ed65efd1a1a8f2b0569d66cf14a25be79068cdd5012deb4f6ee7d2d21c3 | 0.01710 ETH | 0x137a835bba89D869d3F054E200298b76859Aa17E => RepAllocation
+ℹ 0xcefc127dee65f10720ad1935ddc328dd0f8a230f577685a2ddfb28cdf139058b | 0.02354 ETH | 0x2899094353DEFeF4376c5c7855062d1C3fc44a8A => ReputationFromToken
+ℹ 0x3759705d405e711df4d1d2e4096633bbd25b948de271d788944c7a1d41ffde11 | 0.00211 ETH | ReputationFromToken initialized.
+ℹ 0x6018d2196836b5f45a33049ec4de7dc2793418b02185f9ec9fc4c8e67225016e | 0.00488 ETH | DAO schemes set.
+{
+  "name": "ETHGlobal",
+  "Avatar": "0x2b8C70fffdA7F3D7667f7cFEde1429313886329c",
+  "DAOToken": "0xE5ac9a487F366b6092df1Ab59209c4Ee4f26236d",
+  "Reputation": "0x45413CCd9870C89980dBaE9C11315A8A1C1F3f2F",
+  "Controller": "0x574d32b4BB6C068B667b22698B9F0431d33F8310",
+  "Schemes": [
+    {
+      "name": "ReputationFromToken",
+      "alias": "ReputationFromToken",
+      "address": "0x2899094353DEFeF4376c5c7855062d1C3fc44a8A"
+    }
+  ],
+  "arcVersion": "0.0.1-rc.30"
+}
+ℹ DAO Migration has Finished Successfully!
