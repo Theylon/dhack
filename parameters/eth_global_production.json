@@ -34,7 +34,7 @@
     ],
     "VotingMachinesParams": [
        {
-          "activationTime": 1572886800,
+          "activationTime": 1573498800,
           "boostedVotePeriodLimit": 259200,
           "daoBountyConst": 10,
           "minimumDaoBounty": 250,
@@ -48,7 +48,7 @@
           "votersReputationLossRatio": 3
        },
        {
-          "activationTime": 1572886800,
+          "activationTime": 1573498800,
           "boostedVotePeriodLimit": 691200,
           "daoBountyConst": 10,
           "minimumDaoBounty": 500,
